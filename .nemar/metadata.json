@@ -1,0 +1,31 @@
+{
+  "version": "2.0",
+  "dataset_id": "on006921",
+  "source": "openneuro",
+  "source_id": "ds006921",
+  "title": "High Density Resting State EEG of Phantom Limb Pain and Controls",
+  "authors": {
+    "Ramne, M.": {},
+    "Damercheli, S.": {},
+    "Apelgren, F.": {},
+    "Pettersson, I.": {},
+    "Lendaro, E.": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds006921.v1.1.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.9.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
