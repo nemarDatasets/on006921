@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006921-blue)](https://doi.org/10.82901/nemar.on006921)
+
 # High Density Resting State EEG of Phantom Limb Pain and Controls
 
 This dataset comprises resting state high density EEG data (64 or 128 channels) collected from three categories of subjects: amputees with phantom limb pain, amputees without phantom limb pain, and intact, pain free controls. The data has been organised according to the BIDS standard for more accessible reuse. Recordings are approximately 7 minutes long with eyes opened or closed, as indicated by task.
