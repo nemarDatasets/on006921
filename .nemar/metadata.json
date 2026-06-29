@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on006921",
-  "source": "openneuro",
-  "source_id": "ds006921",
+  "pipeline_stage": "validated",
   "title": "High Density Resting State EEG of Phantom Limb Pain and Controls",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Ramne, M.": {},
     "Damercheli, S.": {},
@@ -11,21 +11,64 @@
     "Pettersson, I.": {},
     "Lendaro, E.": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006921.v1.1.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006921",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006921",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.5281/zenodo.10797803",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".png",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset contains high-density resting-state EEG recordings (64 or 128 channels) from three subject groups: amputees with phantom limb pain, amputees without phantom limb pain, and pain-free intact controls. Approximately 7-minute recordings were acquired with eyes open or closed conditions. The data is organized according to BIDS standards and includes session-level pain questionnaire phenotype data, facilitating accessible reuse for neurophysiological investigations of phantom limb pain mechanisms.",
+  "methods_description": "High-density EEG data (64 or 128 channels) were collected during resting-state conditions with eyes open or closed, as indicated by task designation. Recordings were approximately 7 minutes in duration.",
+  "keywords": [
+    {
+      "term": "phantom limb pain"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "high-density EEG"
+    },
+    {
+      "term": "resting-state EEG"
+    },
+    {
+      "term": "amputees"
+    },
+    {
+      "term": "neurophysiology"
+    }
+  ],
+  "source_hash": "b9efb8da24c8a8df113525549621846fbba275c8e568e10624a1a4e5023d2efb"
 }
