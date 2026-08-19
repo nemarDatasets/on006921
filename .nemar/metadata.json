@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "High Density Resting State EEG of Phantom Limb Pain and Controls",
-  "description": "This dataset contains high-density resting-state EEG recordings (64 or 128 channels) from three subject groups: amputees with phantom limb pain, amputees without phantom limb pain, and pain-free intact controls. Approximately 7-minute recordings were acquired with eyes open or closed conditions. The data is organized according to BIDS standards and includes session-level pain questionnaire phenotype data, facilitating accessible reuse for neuroimaging research on phantom limb pain mechanisms.",
+  "description": "This dataset contains high-density resting-state EEG recordings (64 or 128 channels) from amputees with phantom limb pain, amputees without phantom limb pain, and pain-free intact controls. Recordings lasted approximately 7 minutes per condition, with eyes open or closed tasks. The dataset is organized according to the BIDS standard to facilitate accessible reuse and includes phenotype data on pain-related questionnaires.",
   "methods_description": "High-density EEG data (64 or 128 channels) were collected during resting-state conditions with eyes open or closed. Recordings were approximately 7 minutes in duration. Session-level questionnaire data on pain are included as phenotype files.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -15,24 +15,28 @@
   },
   "keywords": [
     {
-      "term": "phantom limb pain"
+      "term": "Phantom Limb",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010591"
     },
     {
       "term": "EEG"
     },
     {
-      "term": "high-density EEG"
+      "term": "HD EEG"
     },
     {
-      "term": "resting-state EEG"
+      "term": "Resting state EEG"
     },
     {
-      "term": "amputees"
-    },
-    {
-      "term": "Pain Perception",
+      "term": "Amputees",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D058748"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000674"
+    },
+    {
+      "term": "Pain",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010146"
     }
   ],
   "related_identifiers": [
