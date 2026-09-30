@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "High Density Resting State EEG of Phantom Limb Pain and Controls",
-  "description": "This dataset contains high-density resting-state EEG recordings (64 or 128 channels) from amputees with phantom limb pain, amputees without phantom limb pain, and pain-free intact controls. Recordings lasted approximately 7 minutes per condition, with eyes open or closed tasks. The dataset is organized according to the BIDS standard to facilitate accessible reuse and includes phenotype data on pain-related questionnaires.",
+  "description": "Resting state high-density EEG (64 or 128 channels) recorded from amputees with phantom limb pain, amputees without phantom limb pain, and intact pain-free controls. Recordings last approximately 7 minutes and were acquired with eyes open or eyes closed, as indicated by task. The data are organised according to the BIDS standard and include session-level pain questionnaire phenotype data.",
   "methods_description": "High-density EEG data (64 or 128 channels) were collected during resting-state conditions with eyes open or closed. Recordings were approximately 7 minutes in duration. Session-level questionnaire data on pain are included as phenotype files.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -15,28 +15,23 @@
   },
   "keywords": [
     {
+      "term": "EEG"
+    },
+    {
+      "term": "high-density EEG"
+    },
+    {
+      "term": "resting state"
+    },
+    {
       "term": "Phantom Limb",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D010591"
     },
     {
-      "term": "EEG"
-    },
-    {
-      "term": "HD EEG"
-    },
-    {
-      "term": "Resting state EEG"
-    },
-    {
       "term": "Amputees",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D000674"
-    },
-    {
-      "term": "Pain",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010146"
     }
   ],
   "related_identifiers": [
@@ -67,7 +62,7 @@
     "eeg"
   ],
   "sizes": [
-    "69.7 GB (155 files)"
+    "64.91 GB (155 files)"
   ],
   "formats": [
     ".json",
